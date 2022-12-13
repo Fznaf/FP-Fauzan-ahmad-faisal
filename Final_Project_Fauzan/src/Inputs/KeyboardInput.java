@@ -1,6 +1,8 @@
 package Inputs;
 
 import java.awt.event.KeyEvent;
+
+import static Utils.Constants.Colors.BLUE;
 import static Utils.Constants.Directions.*;
 import java.awt.event.KeyListener;
 
@@ -40,6 +42,38 @@ public class KeyboardInput implements KeyListener {
 		case KeyEvent.VK_RIGHT:
 			panel.getGame().getPlayer().setRight(true);
 			break;
+		case KeyEvent.VK_1:
+			 panel.getGame().getPlayer().setBlue(true);
+			 panel.getGame().getPlayer().setPurple(false);
+			 panel.getGame().getPlayer().setGreen(false);
+			 panel.getGame().getPlayer().setRed(false);
+			 panel.getGame().getPlayer().setOrange(false);
+			 panel.getGame().getPlayer().setYellow(false);
+			  break;
+		case KeyEvent.VK_2:
+			panel.getGame().getPlayer().setPurple(true);
+			panel.getGame().getPlayer().setBlue(false);
+			panel.getGame().getPlayer().setGreen(false);
+			panel.getGame().getPlayer().setRed(false);
+			panel.getGame().getPlayer().setOrange(false);
+			panel.getGame().getPlayer().setYellow(false);
+			break;
+		case KeyEvent.VK_3:
+			panel.getGame().getPlayer().setPurple(false);
+			panel.getGame().getPlayer().setBlue(false);
+			panel.getGame().getPlayer().setGreen(true);
+			panel.getGame().getPlayer().setRed(false);
+			panel.getGame().getPlayer().setOrange(false);
+			panel.getGame().getPlayer().setYellow(false);
+			break;
+		case KeyEvent.VK_4:
+			panel.getGame().getPlayer().setPurple(false);
+			panel.getGame().getPlayer().setBlue(false);
+			panel.getGame().getPlayer().setGreen(false);
+			panel.getGame().getPlayer().setRed(true);
+			panel.getGame().getPlayer().setOrange(false);
+			panel.getGame().getPlayer().setYellow(false);
+			break;
 		}
 		
 	}
@@ -65,6 +99,7 @@ switch(e.getKeyCode()) {
 		case KeyEvent.VK_RIGHT:
 			panel.getGame().getPlayer().setRight(false);
 			break;
+		
 		}
 	}
 	
