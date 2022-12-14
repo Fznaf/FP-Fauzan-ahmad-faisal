@@ -12,13 +12,7 @@ https://www.youtube.com/watch?v=6_N8QZ47toY&list=PL4rzdwizLaxYmltJQRjq18a9gsSyEQ
 However, as of now there are still a lot of missing elements, like gravity and collision detection
 
 For the FP, you have to apply:
-1. Casting/Conversion
-````java`
-  if(left && !right) {
-			x -= (int)MoveSpeed;
-			moving = true;
-		}```
-    
+1. Casting/Conversion   
 2. Constructor
 3. Overloading
 4. Overriding
