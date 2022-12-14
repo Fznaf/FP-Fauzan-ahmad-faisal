@@ -21,6 +21,7 @@ For the FP, you have to apply:
 7. Polymorphism
 8. ArrayList
 9. Exception Handling
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/06ed0e5de964ee2dc0b2c4a5807bde7f96706b80/Final_Project_Fauzan/src/Entities/Keys.java#L12-L21
 10. GUI
 11. Interface
 12. Abstract Class
