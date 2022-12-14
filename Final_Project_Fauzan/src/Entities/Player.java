@@ -26,21 +26,18 @@ import Utils.LoadSave;
 public class Player extends Entities{
 	
 	private BufferedImage[][] animations;
-	private int AnimationTick, AnimationIndex, speed = 66;
+	private int AnimationTick, AnimationIndex, speed = 45;
 	private int PlayerAction = IDLE;
 	private boolean moving = false;
 	private boolean left, up, right, down;
 	private double MoveSpeed = 2.5;
 	private int Colors = GREEN;
-	private int colorNow = 0;
 	private boolean red, orange, yellow, green, blue, purple;
 	
 	public Player(float x, float y) {
 		super(x, y);
 		loadAnimations();
 	}
-	
-	
 	
 	public void update() {
 		
@@ -128,7 +125,7 @@ public class Player extends Entities{
 		
 		BufferedImage image = LoadSave.GetSpriteAtlas(LoadSave.PLAYER_ATLAS);
 		
-		animations = new BufferedImage[2][6];
+		animations = new BufferedImage[2][12];
 		
 		for(int i = 0; i < animations.length; i++) {
 			for(int j = 0; j < animations[i].length; j++) {

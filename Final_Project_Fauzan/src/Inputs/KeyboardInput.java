@@ -74,6 +74,22 @@ public class KeyboardInput implements KeyListener {
 			panel.getGame().getPlayer().setOrange(false);
 			panel.getGame().getPlayer().setYellow(false);
 			break;
+		case KeyEvent.VK_5:
+			panel.getGame().getPlayer().setPurple(false);
+			panel.getGame().getPlayer().setBlue(false);
+			panel.getGame().getPlayer().setGreen(false);
+			panel.getGame().getPlayer().setRed(false);
+			panel.getGame().getPlayer().setOrange(true);
+			panel.getGame().getPlayer().setYellow(false);
+			break;
+		case KeyEvent.VK_6:
+			panel.getGame().getPlayer().setPurple(false);
+			panel.getGame().getPlayer().setBlue(false);
+			panel.getGame().getPlayer().setGreen(false);
+			panel.getGame().getPlayer().setRed(false);
+			panel.getGame().getPlayer().setOrange(false);
+			panel.getGame().getPlayer().setYellow(true);
+			break;
 		}
 		
 	}
