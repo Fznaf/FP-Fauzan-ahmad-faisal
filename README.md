@@ -17,7 +17,10 @@ For the FP, you have to apply:
 3. Overloading
 4. Overriding
 5. Encapsulation
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/a56740698dd5dddd5b2df63003f2dc6187440246/Final_Project_Fauzan/src/Entities/Player.java#L35
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/a56740698dd5dddd5b2df63003f2dc6187440246/Final_Project_Fauzan/src/Entities/Player.java#L170-L205
 6. Inheritance
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/a56740698dd5dddd5b2df63003f2dc6187440246/Final_Project_Fauzan/src/Entities/Keys.java#L9
 7. Polymorphism
 8. ArrayList
 https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/267bf174a1ba7e65c63344f5719ebc6b71f6a334/Final_Project_Fauzan/src/main/Game.java#L30
