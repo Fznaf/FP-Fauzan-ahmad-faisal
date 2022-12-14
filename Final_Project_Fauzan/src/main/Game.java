@@ -1,9 +1,12 @@
 package main;
 
 import java.awt.Graphics;
+import java.util.ArrayList;
+import java.util.List;
 
 import Entities.Player;
 import Levels.LevelManager;
+import Entities.Keys;
 
 public class Game implements Runnable{
 	
@@ -24,6 +27,7 @@ public class Game implements Runnable{
 	private LevelManager levelManager;
 	
 	private Player player;
+	private List<Keys> keys = new ArrayList<>();
 	
 	public Game() {
 		initclasses();
@@ -37,8 +41,11 @@ public class Game implements Runnable{
 
 	private void initclasses() {
 		// TODO Auto-generated method stub
-		player = new Player(100, 100);
+		player = new Player(100, 564);
 		levelManager = new LevelManager(this);
+		keys.add(new Keys(600, 500));
+		keys.add(new Keys(650, 500));
+		keys.add(new Keys(700, 500));
 		
 	}
 
@@ -55,6 +62,9 @@ public class Game implements Runnable{
 	public void render(Graphics g) {
 		levelManager.Draw(g);
 		player.render(g);
+		for(Keys key : keys) {
+		key.render(g);
+		}
 	}
 	
 	@Override
