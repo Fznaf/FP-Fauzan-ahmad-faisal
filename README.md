@@ -13,6 +13,7 @@ However, as of now there are still a lot of missing elements, like gravity and c
 
 For the FP, you have to apply:
 1. Casting/Conversion   
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/a56740698dd5dddd5b2df63003f2dc6187440246/Final_Project_Fauzan/src/Entities/Player.java#L83-L86
 2. Constructor
 3. Overloading
 4. Overriding
