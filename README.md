@@ -13,6 +13,12 @@ However, as of now there are still a lot of missing elements, like gravity and c
 
 For the FP, you have to apply:
 1. Casting/Conversion
+````java`
+  if(left && !right) {
+			x -= (int)MoveSpeed;
+			moving = true;
+		}```
+    
 2. Constructor
 3. Overloading
 4. Overriding
