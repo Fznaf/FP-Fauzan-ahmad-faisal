@@ -15,6 +15,7 @@ For the FP, you have to apply:
 1. Casting/Conversion   
 https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/a56740698dd5dddd5b2df63003f2dc6187440246/Final_Project_Fauzan/src/Entities/Player.java#L83-L86
 2. Constructor
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/eb0d82c0866dca1b4b19e454329181da5a3e81bf/Final_Project_Fauzan/src/Entities/Entities.java#L3-L11
 3. Overloading
 4. Overriding
 5. Encapsulation
@@ -32,7 +33,8 @@ https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/06ed0e5de964ee2dc0b2c4a5807
 10. GUI
 11. Interface
 12. Abstract Class
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/eb0d82c0866dca1b4b19e454329181da5a3e81bf/Final_Project_Fauzan/src/Entities/Entities.java#L3
 13. Generics
 14. Collection
 15. Input Output
-
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/eb0d82c0866dca1b4b19e454329181da5a3e81bf/Final_Project_Fauzan/src/Utils/LoadSave.java#L22
