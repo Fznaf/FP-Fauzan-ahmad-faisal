@@ -20,6 +20,9 @@ For the FP, you have to apply:
 6. Inheritance
 7. Polymorphism
 8. ArrayList
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/267bf174a1ba7e65c63344f5719ebc6b71f6a334/Final_Project_Fauzan/src/main/Game.java#L30
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/267bf174a1ba7e65c63344f5719ebc6b71f6a334/Final_Project_Fauzan/src/main/Game.java#L46-L48
+https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/267bf174a1ba7e65c63344f5719ebc6b71f6a334/Final_Project_Fauzan/src/main/Game.java#L65-L66
 9. Exception Handling
 https://github.com/Fznaf/FP-Fauzan-ahmad-faisal/blob/06ed0e5de964ee2dc0b2c4a5807bde7f96706b80/Final_Project_Fauzan/src/Entities/Keys.java#L12-L21
 10. GUI
